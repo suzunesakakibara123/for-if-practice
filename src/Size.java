@@ -7,7 +7,7 @@ public class Size {
 		try {
 			int number;
 
-			// 1〜3が入力されるまで繰り返す
+			/* 1〜3が入力されるまで繰り返す*/
 			while (true) {
 				System.out.println("【課題①-③】：形を選択してください。");
 				System.out.println("1: 山型");
@@ -17,7 +17,7 @@ public class Size {
 
 				if (!sc.hasNextInt()) {
 					System.out.println("無効な入力です。整数を入力してください。");
-					sc.next(); // 間違った入力を捨てる
+					sc.next(); /* 間違った入力を捨てる*/
 					continue;
 				}
 
@@ -30,7 +30,7 @@ public class Size {
 				System.out.println("無効な数字です。もう一度、1〜3の中から数字を入力してください。");
 			}
 
-			// サイズ入力
+			/* サイズ入力*/
 			int size;
 
 			while (true) {
@@ -38,7 +38,7 @@ public class Size {
 
 				if (!sc.hasNextInt()) {
 					System.out.println("無効な入力です。整数を入力してください。");
-					sc.next(); // 間違った入力を捨てる
+					sc.next(); /* 間違った入力を捨てる*/
 					continue;
 				}
 
@@ -73,7 +73,7 @@ public class Size {
 				reflected.printShape();
 			}
 
-			// 課題④
+			/* 課題④*/
 			int count;
 
 			while (true) {
@@ -81,7 +81,7 @@ public class Size {
 
 				if (!sc.hasNextInt()) {
 					System.out.println("無効な入力です。整数を入力してください。");
-					sc.next(); // 間違った入力を捨てる
+					sc.next(); /* 間違った入力を捨てる*/
 					continue;
 				}
 
